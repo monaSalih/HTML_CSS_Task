@@ -1,0 +1,80 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    /* display: grid;
+        grid-template-rows: 50%;
+        border: 1px solid tomato; */
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  .logHe {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+  }
+  .logHe img {
+    margin-top: 3px;
+    height: 80px;
+  }
+  .iconLi {
+    margin-left: 55%;
+  }
+  ul li {
+    display: inline;
+  }
+  hr {
+    height: 5px;
+    background-image: url("./image/hr-img1.png");
+    /*  background-repeat: repeat; 
+        border: 1px solid red;*/
+  }
+  /* second section css */
+  .second_sec {
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-around; */
+  }
+  .print_img {
+    margin-top: 2%;
+    margin-left: 75%;
+  }
+  .print_img img {
+    width: 14px;
+    height: 30px;
+  }
+  .list_section {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./image/list-bg.png");
+    justify-content: space-around;
+  }
+  .third_sec{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid tomato;
+  }
+  .plog_info{
+    margin-left: 3%;
+  }
+  button{
+    margin-top:15%;
+    margin-left:35%;
+    width: 50%;
+    height: 25%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(22, 7, 151);
+  }
+  footer{
+   margin-top: 1%;
+  }
+  .footer_article_img{
+    margin-left: 55%;
+    margin-right: 55%;
+  }
+  .footer_article_par{
+    margin-left: 45%;
+    margin-right: 5%;
+  }

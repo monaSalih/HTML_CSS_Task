@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+        height: 200vh;
+        }
+        .container{
+            width: 550px;
+            height: 666px;
+            border: 2px solid rgb(110, 7, 59);
+            margin: 50px auto;
+
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+        }
+        .purple{
+            background-color: purple;
+            /* TWO will effect on elemnt with save elemnt position and we can move it where we whant based for his parent */
+            position: relative;
+            top: 99px;
+            left: 44px;
+           /*ONE=> will not effect with t/l/b/r cause static */
+           /* position: static; */
+           /* top: 55px;
+            left: 66px; */
+
+        }
+        .yellow{
+            background-color: yellow;
+            /* THREE absolute will make the element free from the normal border*/
+            position: absolute;
+            top: 66px;
+            right: 188px;
+        }
+        .red{
+            background-color: red;
+            /* FOUR fixed he look like absolute where he lost his position 
+             will stay in the same position even if we scroll down 
+             and it take the body as parent which mean work based viewport 
+             */
+            position: fixed;
+            top:7px;
+            right: 77px;
+
+        }
+        .orange{
+            background-color: orange;
+            /* FIVE sticky when element take this position he will preng for front and still in his plase like position relative*/
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box purple"></div>
+      <div class="box orange"></div>
+      <div class="box yellow"></div>
+      <div class="box red"></div>
+    </div>
+  </body>
+</html>
